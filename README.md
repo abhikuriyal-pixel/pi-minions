@@ -4,7 +4,7 @@
 
 PiMinions is a Windows desktop assistant with persistent conversations, a central Chief coordinator, approval-gated tools and an integrated DocFoo document-retrieval teammate.
 
-[Download releases](https://github.com/abhikuriyal-pixel/PiMinions/releases) · [Report a problem](https://github.com/abhikuriyal-pixel/PiMinions/issues) · [Support](SUPPORT.md)
+[Download releases](https://github.com/abhikuriyal-pixel/pi-minions/releases) · [Report a problem](https://github.com/abhikuriyal-pixel/pi-minions/issues) · [Support](SUPPORT.md)
 
 > **Code coming soon..**
 > This repository currently hosts public documentation and binary releases. Application implementation and development history are maintained privately; no source-publication date is committed.
@@ -19,7 +19,7 @@ PiMinions is a Windows desktop assistant with persistent conversations, a centra
 
 ## Install · Windows x64
 
-Choose a version from [Releases](https://github.com/abhikuriyal-pixel/PiMinions/releases):
+Choose a version from [Releases](https://github.com/abhikuriyal-pixel/pi-minions/releases):
 
 | Asset | Use |
 | --- | --- |
