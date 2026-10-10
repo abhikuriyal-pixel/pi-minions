@@ -41,6 +41,12 @@ Connect a supported model provider in **Settings & providers → Providers**. In
 
 Model requests and enabled integrations contact their providers. Provider credentials saved through the app use OS encryption; transcripts, library files and browser storage are not generally encrypted. Approved scripts/Python are not an OS sandbox. Review permissions and avoid sharing private content in issue reports.
 
+## Profile storage · v0.1.2 and later
+
+App metadata uses a local SQLite database with record-level writes in a dedicated worker. Existing `minions.json` profiles migrate automatically on first launch, preserving their original as `minions.pre-sqlite.json`. Conversations, attachments, skill documents and encrypted credentials remain in their existing storage; Koofr snapshots keep their portable JSON format.
+
+Before updating, open the data folder from Settings, close PiMinions, and copy that folder somewhere safe. Keep the recovery JSON until you are satisfied with the migration. **Do not downgrade a migrated profile to v0.1.1 or older**: those builds cannot read SQLite. The database is not encrypted; existing OS-encrypted credential handling is unchanged.
+
 ## Release policy
 
 Use **Settings & providers → Settings → Check for Updates** to check published stable releases manually. Downloads are checksum-verified; installation/restart waits until active work is safe to interrupt. Source-checkout builds cannot install updates over themselves.
